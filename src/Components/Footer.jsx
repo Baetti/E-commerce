@@ -6,9 +6,8 @@ function Footer() {
   return (
     <>
       <div className="bg-primary">
-        <hr />
         <div className="d-flex w-100 flex-column">
-          <div className="d-flex justify-content-center align-items-center mt-2">
+          <div className="d-flex justify-content-center align-items-center mt-4">
             <h5 className="text-white">You can find us at </h5>
           </div>
           <div className="d-flex justify-content-center align-items-center">
@@ -50,7 +49,7 @@ function Footer() {
         </div>
         <Row
           className="container-fluid justify-content-center w-100 mt-4"
-          style={{ height: "68vh" }}
+          style={{ height: "70vh" }}
         >
           <Col className="text-center">
             <h4 className="fw-bold text-white">Get to Know Us</h4>
