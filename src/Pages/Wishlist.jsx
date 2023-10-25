@@ -63,7 +63,7 @@ function Wishlist() {
             </Col>
           ))
         ) : (
-          <p>Wishlist is Empty!!!</p>
+          <p className="text-danger fs-3 text-center">Wishlist is Empty!!!</p>
         )}
       </Row>
     </div>
